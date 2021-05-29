@@ -5,8 +5,8 @@ import './AllProducts.css';
 const AllProducts = () => {
     return (
         <section className="mt-5 All-products">
-            <div className='container'>
-            <h1 className='text-center'>Populer Mangos</h1>
+            <div className='container text-center'>
+            <h1 className=''>Populer Mangos</h1>
             <div className='row py-5'>
                                 {/* All Mango List  */}
                 {

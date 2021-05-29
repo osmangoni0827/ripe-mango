@@ -8,7 +8,7 @@ const Bannar1 = () => {
            <div className='col-md-6 col-12 col-sm-12 col-lg-6 '>
               <div className='mt-5'>
               <h1> SPECIAL LANGRA MANGO</h1>
-               <h6>Only 150 rupees per kg</h6>
+               <h5>Only 150 rupees per kg</h5>
                <button className='bannarOrderButton'>Order Now</button>
               </div>
            </div>
