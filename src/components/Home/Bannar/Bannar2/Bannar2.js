@@ -12,8 +12,8 @@ const Bannar2 = () => {
                <button className='bannarOrderButton'>Order Now</button>
               </div>
            </div>
-           <div className='col-md-5 col-12 col-sm-12 col-lg-5'>
-               <img src="https://i.ibb.co/zPs72wg/amarpali.jpg" alt="" />
+           <div className='col-md-6 col-12 col-sm-12 col-lg-6'>
+               <img src="https://i.ibb.co/44xBYNy/amarpali-removebg-preview.png" alt="" />
            </div>
    </div>
     );
