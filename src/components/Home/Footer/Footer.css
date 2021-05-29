@@ -1,0 +1,12 @@
+.footer{
+    height: 200px;
+    padding: 5%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+.footer .icon {
+    padding: 3px;
+}
