@@ -12,7 +12,7 @@ const Product = ({pdDescription}) => {
                    <h4>{name}</h4>
                    <h5>{prize}</h5>
                </div>
-               <button className='order-button'>Buy Now</button>
+               <button className='order-button'>Order Now</button>
               </div>
             </div>
         // </div>

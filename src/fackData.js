@@ -36,14 +36,14 @@ const fakeData=[
     }
     ,
     {
-        name:'GOPAL BHOG MANGO',
-        prize:"190 Taka/kg",
-        image:"https://i.ibb.co/Dgy6J0m/CREATOR-gd-jpeg-v1-0-using-IJG-JPEG-v62-quality-90.jpg"
+        name:'HARIBHANGA MANGO',
+        prize:"150 Taka/kg",
+        image:"https://i.ibb.co/R33G7Mq/image.jpg"
     },
     {
-        name:'GOPAL BHOG MANGO',
-        prize:"190 Taka/kg",
-        image:"https://i.ibb.co/Dgy6J0m/CREATOR-gd-jpeg-v1-0-using-IJG-JPEG-v62-quality-90.jpg"
+        name:'BOMBAY MANGO',
+        prize:"160 Taka/kg",
+        image:"https://i.ibb.co/ZmbC6yf/BOMBAI.jpg"
     }
 ]
 export default fakeData;
