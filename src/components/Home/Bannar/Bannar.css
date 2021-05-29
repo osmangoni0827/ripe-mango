@@ -1,0 +1,25 @@
+.bannar1{
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    background-color: #218838;
+    color: white;
+}
+.bannar1 h1{
+    font-size: 40px;
+}
+.bannar1 img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+.bannarOrderButton{
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    width: 300px;
+    height: 80px;
+    border: 1px solid #92B21F;
+    background-color: rgb(248, 247, 246);
+    border-radius: 2px 10px 2px 10px;
+}
