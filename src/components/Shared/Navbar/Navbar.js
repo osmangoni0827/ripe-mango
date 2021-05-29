@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar   navbar-expand-lg navbar-light bg-dark navbar ">
             <div className="container-fluid title">
                                  {/* Title */}
-                <h6 class="navbar-brand " href="#">Ripe Mango</h6>
+                <h6 class="navbar-brand " href="#">Ripe Mango Shop</h6>
                         {/* Menu Button for responsive */}
                 <button className="navbar-toggler bg-light text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
