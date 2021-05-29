@@ -1,2 +1,1 @@
-### Ripe Mango Shop Home Part
-
+### Ripe Mango Shop Home part. 
