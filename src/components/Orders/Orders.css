@@ -1,0 +1,44 @@
+.product-order{
+
+    padding: 10px;
+
+}
+.product-order h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(46, 39, 29);
+}
+.product-order .order-information{
+    padding: 5px;
+    padding-left: 50px;
+}
+.product-order input{
+    height: 40px;
+    width: 100%;
+    border: 5%;
+}
+.product-order ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+/* product Features Style */
+.product-order ul li{
+font-size: 20px;
+font-weight: 500;
+}
+        /* Image Part Style */
+.product-order .image{
+    
+    margin: 50px 0px;
+}
+.product-order .image img{
+    padding-left: 10px;
+    width: 100%;
+    height: 400px;
+}
+.product-order .image h6{
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+}
