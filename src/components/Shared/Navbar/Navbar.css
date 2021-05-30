@@ -1,0 +1,14 @@
+
+.navbar .title h6{
+color: white;
+/* font-size: 28px; */
+}
+.navbar ul li a {
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.navbar ul li a:hover{
+    font-weight: 500;
+    color: white;
+}

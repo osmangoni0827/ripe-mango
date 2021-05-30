@@ -1,0 +1,24 @@
+.productCard {
+    width: 100%;
+    border-radius: 5px;
+    padding: 18px 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    height: 400px;
+    text-align: center; 
+}
+
+.productCard img{
+    width: 80%;
+    height: 250px;
+    padding: 2px;
+}
+
+.order-button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #92B21F;
+    border-radius: 5px;
+    background-color:#218838 ;
+    color: white;
+}
