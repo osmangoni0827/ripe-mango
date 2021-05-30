@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import Home from './components/Home/Home/Home';
+import Orders from './components/Orders/Orders';
 function App() {
   return (
    <Router>
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/:ProductName">
+            <Orders></Orders>
           </Route>
           <Route path="/home">
             <Home />
