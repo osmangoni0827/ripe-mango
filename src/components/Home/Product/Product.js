@@ -20,6 +20,7 @@ const Product = ({ pdDescription }) => {
                     {/* <ProductDetails /> */}
                 </Link>
             </div>
+
         </div >
 
     );

@@ -10,7 +10,7 @@ const AllProducts = () => {
                 <div className='row py-5'>
 
                     {
-                        fakeData.map(pd => <Product pdDescription={pd}></Product>)
+                        fakeData.map(pd => <Product key={pd.id} pdDescription={pd}></Product>)
                     }
                 </div>
             </div>
