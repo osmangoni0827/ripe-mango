@@ -41,7 +41,7 @@ const handleBuyNow =() =>{
 
               
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><h4>Your Location</h4></label>
+                        <label for="exampleInputEmail1" class="form-label"><h5>Your Location</h5></label>
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Select Your Location</option>
                             <option value="1">Dhaka</option>
@@ -50,7 +50,7 @@ const handleBuyNow =() =>{
                         </select>
                     </div>
                     <div class="mb-3">
-                    <h4>No of KG : {counter} </h4>
+                    <h5>No of KG : {counter} </h5>
                         <button style={{ marginRight: '5px' }} className="btn btn-secondary " onClick={() => dispatch(increment())}>+</button>
                         <button className="btn btn-secondary" onClick={() => dispatch(decrement())}>-</button>
                         <button onClick={handleBuyNow} className="d-block mt-3 btn btn-primary">Buy Now</button>
