@@ -24,14 +24,14 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/:ProductName">
-            <Orders></Orders>
-          </Route>
           <Route path="/home">
             <Home />
           </Route>
           <Route path="/blog">
            <Blog></Blog>
+          </Route>
+          <Route path="/product/:ProductName">
+            <Orders></Orders>
           </Route>
         </Switch>
    </Router>

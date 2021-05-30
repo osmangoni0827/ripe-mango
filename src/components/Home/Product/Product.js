@@ -1,7 +1,5 @@
 import React from 'react';
-import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
-import Orders from '../../Orders/Orders';
 import './Product.css';
 const Product = ({pdDescription}) => {
     // product information
@@ -17,7 +15,7 @@ const Product = ({pdDescription}) => {
                    <h4>{name}</h4>
                    <h5>{prize}</h5>
                </div>
-               <Link to={`/${name}`}>
+               <Link to={`/product/${name}`}>
                     <button className='order-button'>Order Now</button>
                     {/* <Order Button /> */}
                 </Link>

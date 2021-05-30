@@ -3,6 +3,12 @@
     padding: 10px;
 
 }
+.product-order h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(46, 39, 29);
+}
 .product-order .order-information{
     padding: 5px;
     padding-left: 50px;
@@ -15,12 +21,13 @@
 .product-order ul{
     margin-left: 0px;
     padding-left: 0px;
-    list-style: none;
 }
+/* product Features Style */
 .product-order ul li{
 font-size: 20px;
 font-weight: 500;
 }
+        /* Image Part Style */
 .product-order .image{
     
     margin: 50px 0px;
@@ -34,9 +41,4 @@ font-weight: 500;
     text-align: center;
     padding: 10px;
     height: 20px;
-}
-.product-order h1{
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
 }

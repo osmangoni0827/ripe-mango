@@ -17,16 +17,16 @@ const Navbar = () => {
                     <ul class="navbar-nav ms-auto text-white">
                             
                         <li class="nav-item menu">
-                            <Link class="nav-link text-white " to="home">Home</Link>
+                            <Link class="nav-link text-white " to="/home">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link text-white" to='about'>About</Link>
+                            <Link class="nav-link text-white" to='/about'>About</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link text-white" to='blog'>Blog</Link>
+                            <Link class="nav-link text-white" to='/blog'>Blog</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link text-white" to='contact'>Contact</Link>
+                            <Link class="nav-link text-white" to='/contact'>Contact</Link>
                         </li>
                     </ul>
                 </div>

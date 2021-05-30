@@ -5,14 +5,16 @@ import Footer from '../Home/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
 import './Orders.css';
 const Orders = () => {
-    const { ProductName } = useParams()
+    const { ProductName } = useParams();
     const Product = fakeData.find((pd) => pd.name === ProductName);
-     const { name, image, prize, quality, Kind, description, Demand, Stock }=Product
-  
+    const [productData]=useState(Product);
+     const { name, image, prize, quality, Kind, description, Demand, Stock }=productData
+  console.log(Product)
     return (
         <div>
            <Navbar></Navbar>
             <div className='row product-order '>
+                            {/* Product Information */}
             <div className='col-md-5 col-lg-5 col-sm-12 col-12 image'>
                 <img src={image} alt=""></img>
                 <h6>{description}</h6>
@@ -26,6 +28,9 @@ const Orders = () => {
                 </ul>
                 <h4>Stock: {Stock}</h4>
                 <h4>Price: {prize}</h4>
+
+                             {/* Input quantity, and basket size */}
+
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label"><h4>Basket Size</h4></label>
