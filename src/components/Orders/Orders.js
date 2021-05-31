@@ -44,7 +44,7 @@ const handleBuyNow =() =>{
                         <label for="exampleInputEmail1" class="form-label"><h4>Your Location</h4></label>
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Select Your Location</option>
-                            <option value="1">Dhaka</option>
+                            <option value="1">Dhakaaa</option>
                             <option value="2">Chittagong</option>
                             <option value="3">Feni</option>
                         </select>
