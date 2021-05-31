@@ -3,13 +3,21 @@ import { useParams } from 'react-router';
 import fakeData from '../../fackData';
 import Footer from '../Home/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment } from './actions/index'
 import './Orders.css';
 const Orders = () => {
+    
+    const counter = useSelector(state => state.counter)
+    const dispatch = useDispatch()
     const { ProductName } = useParams();
     const Product = fakeData.find((pd) => pd.name === ProductName);
     const [productData]=useState(Product);
      const { name, image, prize, quality, Kind, description, Demand, Stock }=productData
-  console.log(Product)
+//   console.log(Product)
+const handleBuyNow =() =>{
+    alert(`Thanks For Buying ${counter} Kg ${name}.`)
+}
     return (
         <div>
            <Navbar></Navbar>
@@ -31,22 +39,24 @@ const Orders = () => {
 
                              {/* Input quantity, and basket size */}
 
-                <form>
+              
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><h4>Basket Size</h4></label>
+                        <label for="exampleInputEmail1" class="form-label mt-3"><h5>Your Location</h5></label>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>Select Basket Size</option>
-                            <option value="1">One kg</option>
-                            <option value="2">Two Kg</option>
-                            <option value="3">Three Kg</option>
+                            <option selected>Select Your Location</option>
+                            <option value="1">Dhaka</option>
+                            <option value="2">Chittagong</option>
+                            <option value="3">Feni</option>
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="quantity" class="form-label"><h4>Quantity</h4></label>
-                        <input type="number" class="form-control" id="quantity" />
+                    <h5>No of KG : {counter} </h5>
+                        <button style={{ marginRight: '5px' }} className="btn btn-secondary " onClick={() => dispatch(increment())}>+</button>
+                        <button className="btn btn-secondary" onClick={() => dispatch(decrement())}>-</button>
+                        <button onClick={handleBuyNow} className="d-block mt-3 btn btn-primary">Buy Now</button>
                     </div>
-                    <button type="submit" class="btn btn-primary">Order</button>
-                </form>
+                   
+                
             </div>
         </div>
             <Footer></Footer>
